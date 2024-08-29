@@ -20,7 +20,8 @@
 		"single sign on"
 	],
 	"description" : "This library extends the 'League OAuth2 Client' library to provide OpenID Connect Discovery support for supporting providers that expose a .well-known configuration endpoint.",
-	"minimum-stability" : "stable",
+	"minimum-stability": "dev",
+    "prefer-stable": true,
 	"autoload" : {
 		"psr-4" : {
 			"Cloudcogs\\OAuth2\\Client\\" : "src/"
